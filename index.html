@@ -179,8 +179,8 @@
     <div class="right-caption">
     
     <div class="section-tittle">
-    <span>About Us</span>
-    <h2>Get ready for real time adventure</h2>
+    <span class="spa" >About Us</span>
+    <h2 >Get ready for real time adventure</h2>
     </div>
     <div class="support-caption">
     <p class="mb-50">Let’s start your journey with us, your dream will come true. Lorem
@@ -457,6 +457,16 @@ margin-top:20px;}
     margin-right: auto;
     margin-left: auto;}
 
+
+   
+    @media screen and (max-width:900px){
+      .instagram-area{position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+   ;}
+    }
 .video-area .video-wrap h3 {
     color: #fff;
     font-weight: 600;
@@ -526,6 +536,20 @@ margin-top:3%}
 .acoandimg{display: flex;
 justify-content: space-between;
 }
+
+@media screen and (max-width:900px){
+  .btnaco{margin-left: -83px;
+    margin-bottom: -623px;
+    display: inline-block;
+    position: absolute;}
+}
+@media screen and (max-width:900px){
+  .acoandimg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;}
+}
 .btn-link {
     font-weight: 400;
     color: #007bff;
@@ -537,8 +561,10 @@ justify-content: space-between;
 
     .supportimg{height: 85vh;
     margin-left: 124px;}
-.container2{display: flex;
+
+.spa{display: flex;
 justify-content: space-around;}
+
 .support-company-area .support-location-img {
     position: relative;
 }
@@ -549,6 +575,7 @@ img {
     vertical-align: middle;
     border-style: none;
 }
+
 
 .section-tittle>span {
     color: #7EA0FF;
@@ -592,15 +619,31 @@ img {
     text-align: center;
 margin-top: 35px;}
 
+@media screen and (max-width:900px)
+{.right-caption{ display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    position: absolute;
+    align-items: center;
+    height: 150px;
+   }}
 
 
-@media screen and (max-width:1120px){
+   .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+
   .momy{display: flex;
 justify-content: space-evenly;
 align-items: center;
 gap: 12px;
-margin-left: -122px;}
-}
+margin-left: 5px;}
+
 
 .onebox, .onebox2, .onebox3{background-color: #d7d3d3}
    .oneboxitem{display: flex;
@@ -652,7 +695,7 @@ align-items: center;
             left: 15%;
         }
     }
-    @media screen and (max-width:1120px){
+    @media screen and (max-width:900px){
     .cont2, .pname{font-size: 15px;
     line-height: 1.2;
     display: flex;
@@ -660,11 +703,11 @@ align-items: center;
     flex-wrap: wrap;
     text-align: center}
     }
-    @media screen and (max-width:1120px)
+    @media screen and (max-width:900px)
     {.mains{height: 500px;
         background-image: url(https://preview.colorlib.com/theme/tralive/assets/img/hero/h1_hero1.png.webp);
         background-size: 50% 50%;}}
-    @media screen and (max-width:1120px)
+    @media screen and (max-width:900px)
     {
      .bus{  position: relative;
         width: 500px;
@@ -681,6 +724,8 @@ align-items: center;
         100%{
             left: 15%;
         }}}
+
+
     .a, .nav-link{color:#00095E !important}
     .hname{font-size: 50px;
     line-height: 1.2;
